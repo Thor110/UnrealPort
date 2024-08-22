@@ -1,0 +1,23 @@
+	briefings_voice.txt
+
+first package categories sorted
+
+	categories.bat
+
+commands to be added to the final script
+
+	category.txt
+
+input file for generate-list.bat
+
+	generate-list.bat
+
+for generating a list from category.txt, producing written.txt which can then be added to categories.bat
+
+	notes.txt
+
+this file
+
+	sound-sorting.txt
+
+a list of the lines to replace in all the t3d files
