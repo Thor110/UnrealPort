@@ -1,6 +1,6 @@
 	briefings_voice.txt
 
-first package categories sorted
+first package categories sorted and example
 
 	categories.bat
 
