@@ -120,7 +120,7 @@ umodel -path="%level%" -export *.usx
 REM for all files in the games StaticMeshes folder move folders of the same name from umodelexport folder to UE4 StaticMeshes folder
 for /f "delims=|" %%f in ('dir /b "%level%\StaticMeshes"') do move "%model%\UmodelExport\%%~nf" "%start%\StaticMeshes\%%~nf"
 REM NOTE : 10 of the packages in the StaticMeshes folder are empty, so when moving the files using this logic there are some failures.
-REM Consider moving them to temporary folders just like the sounds packages, to reduce errors in the command window.
+REM Consider moving them to temporary folders just like the sounds packages, to reduce errors in the command window. - DONE
 
 REM delete random TGA files that exist within StaticMeshes folder and in the Materials folder
 del /q "%start%\StaticMeshes\globalprops\Geonosian\GeonosianTank.tga"
@@ -134,6 +134,9 @@ for /f "delims=|" %%f in ('dir /b "%level%\Sounds"') do ucc batchexport "%level%
 
 REM change directory to original directory
 cd /d "%first%"
+
+REM NOTE : SOUNDS
+REM insert lines to move sound files into categories
 
 Rem this mesh fails to convert to fbx so it is deleted
 del "%start%\StaticMeshes\markericons\SetTrap\TrapXSpotIcon.pskx"
@@ -201,6 +204,8 @@ mkdir "%model%\UModelExport"
 pause
 REM pause and exit for now
 exit
+
+REM the following lines are code that I was trialling to prepare the ".props.txt" files and "_mat.txt" files.
 
 findstr /L /S /N /M  "Material" *.props.txt* > %first%\A.txt
 findstr /L /S /N /M  "Diffuse" *.props.txt* > %first%\B.txt
