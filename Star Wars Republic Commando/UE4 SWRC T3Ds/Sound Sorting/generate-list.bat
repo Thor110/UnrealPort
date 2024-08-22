@@ -1,7 +1,7 @@
 @echo off
 
 for /f "delims=|" %%i in (category.txt) do (
-  echo move /Y "%%start%%\Sounds\geo_sound\%%i.wav" "%%start%%\Sounds\geo_sound\Prologue\%%i.wav">> written.txt
+  echo move /Y "%%start%%\Sounds\yyy_music\%%i.wav" "%%start%%\Sounds\yyy_music\YYY_overlays\%%i.wav">> written.txt
 )
 
 pause
