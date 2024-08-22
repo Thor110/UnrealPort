@@ -1006,10 +1006,10 @@ Begin Map
 		Lift Time=2.0
 		KeyPos(1)=(X=0.0,Y=0.0,Z=320.0)
 		Lift Destination=(X=0.000000,Y=0.000000,Z=320.000000)
-		OpenStartSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_o_st_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_o_st_01_Cue'
-		OpenStopSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_o_nd_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_o_nd_01_Cue'
-		CloseStartSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_c_st_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_c_st_01_Cue'
-		CloseStopSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_c_nd_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_c_nd_01_Cue'
+		OpenStartSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_o_st_01_Cue.door_GEO_drdFact_o_st_01_Cue'
+		OpenStopSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_o_nd_01_Cue.door_GEO_drdFact_o_nd_01_Cue'
+		CloseStartSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_c_st_01_Cue.door_GEO_drdFact_c_st_01_Cue'
+		CloseStopSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_c_nd_01_Cue.door_GEO_drdFact_c_nd_01_Cue'
 		MoveLoopSound=None
 		Wait at top time=10.0
 		NumKeys=2
@@ -1029,10 +1029,10 @@ Begin Map
 		Lift Time=2.0
 		KeyPos(1)=(X=0.0,Y=0.0,Z=393.0)
 		Lift Destination=(X=0.000000,Y=0.000000,Z=393.000000)
-		OpenStartSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_o_st_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_o_st_01_Cue'
-		OpenStopSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_o_nd_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_o_nd_01_Cue'
-		CloseStartSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_c_st_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_c_st_01_Cue'
-		CloseStopSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_c_nd_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_c_nd_01_Cue'
+		OpenStartSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_o_st_01_Cue.door_GEO_drdFact_o_st_01_Cue'
+		OpenStopSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_o_nd_01_Cue.door_GEO_drdFact_o_nd_01_Cue'
+		CloseStartSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_c_st_01_Cue.door_GEO_drdFact_c_st_01_Cue'
+		CloseStopSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_c_nd_01_Cue.door_GEO_drdFact_c_nd_01_Cue'
 		MoveLoopSound=None
 		Wait at top time=0.0
 		NumKeys=2
@@ -2072,10 +2072,10 @@ Begin Map
 		Lift Time=2.0
 		KeyPos(1)=(X=0.0,Y=0.0,Z=357.0)
 		Lift Destination=(X=0.000000,Y=0.000000,Z=357.000000)
-		OpenStartSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_o_st_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_o_st_01_Cue'
-		OpenStopSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_o_nd_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_o_nd_01_Cue'
-		CloseStartSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_c_st_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_c_st_01_Cue'
-		CloseStopSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_c_nd_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_c_nd_01_Cue'
+		OpenStartSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_o_st_01_Cue.door_GEO_drdFact_o_st_01_Cue'
+		OpenStopSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_o_nd_01_Cue.door_GEO_drdFact_o_nd_01_Cue'
+		CloseStartSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_c_st_01_Cue.door_GEO_drdFact_c_st_01_Cue'
+		CloseStopSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_c_nd_01_Cue.door_GEO_drdFact_c_nd_01_Cue'
 		MoveLoopSound=None
 		Wait at top time=0.0
 		NumKeys=2
@@ -2604,11 +2604,11 @@ Begin Map
 		Lift Time=3.0
 		KeyPos(1)=(X=0.0,Y=0.0,Z=160.0)
 		Lift Destination=(X=0.000000,Y=0.000000,Z=160.000000)
-		OpenStartSound=SoundCue'/Game/Sounds/GEN_Sound_doors_elevators_elev_GEN_Elev_st03_Cue.GEN_Sound_doors_elevators_elev_GEN_Elev_st03_Cue'
-		OpenStopSound=SoundCue'/Game/Sounds/GEN_Sound_doors_elevators_elev_GEN_Elev_end03_Cue.GEN_Sound_doors_elevators_elev_GEN_Elev_end03_Cue'
-		CloseStartSound=SoundCue'/Game/Sounds/GEN_Sound_doors_elevators_elev_GEN_Elev_st03_Cue.GEN_Sound_doors_elevators_elev_GEN_Elev_st03_Cue'
-		CloseStopSound=SoundCue'/Game/Sounds/GEN_Sound_doors_elevators_elev_GEN_Elev_end03_Cue.GEN_Sound_doors_elevators_elev_GEN_Elev_end03_Cue'
-		MoveLoopSound=SoundCue'/Game/Sounds/GEN_Sound_doors_elevators_elev_GEN_Elev_lp03_Cue.GEN_Sound_doors_elevators_elev_GEN_Elev_lp03_Cue'
+		OpenStartSound=SoundCue'/Game/Sounds/GEN_Sound/doors_elevators/elev_GEN_Elev_st03_Cue.elev_GEN_Elev_st03_Cue'
+		OpenStopSound=SoundCue'/Game/Sounds/GEN_Sound/doors_elevators/elev_GEN_Elev_end03_Cue.elev_GEN_Elev_end03_Cue'
+		CloseStartSound=SoundCue'/Game/Sounds/GEN_Sound/doors_elevators/elev_GEN_Elev_st03_Cue.elev_GEN_Elev_st03_Cue'
+		CloseStopSound=SoundCue'/Game/Sounds/GEN_Sound/doors_elevators/elev_GEN_Elev_end03_Cue.elev_GEN_Elev_end03_Cue'
+		MoveLoopSound=SoundCue'/Game/Sounds/GEN_Sound/doors_elevators/elev_GEN_Elev_lp03_Cue.elev_GEN_Elev_lp03_Cue'
 		Wait at top time=4.0
 		NumKeys=2
 		InitialState=NewEnumerator6
@@ -11395,10 +11395,10 @@ Begin Map
 		Lift Time=2.0
 		KeyPos(1)=(X=0.0,Y=0.0,Z=320.0)
 		Lift Destination=(X=0.000000,Y=0.000000,Z=320.000000)
-		OpenStartSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_o_st_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_o_st_01_Cue'
-		OpenStopSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_o_nd_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_o_nd_01_Cue'
-		CloseStartSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_c_st_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_c_st_01_Cue'
-		CloseStopSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_c_nd_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_c_nd_01_Cue'
+		OpenStartSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_o_st_01_Cue.door_GEO_drdFact_o_st_01_Cue'
+		OpenStopSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_o_nd_01_Cue.door_GEO_drdFact_o_nd_01_Cue'
+		CloseStartSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_c_st_01_Cue.door_GEO_drdFact_c_st_01_Cue'
+		CloseStopSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_c_nd_01_Cue.door_GEO_drdFact_c_nd_01_Cue'
 		MoveLoopSound=None
 		Wait at top time=2.0
 		NumKeys=2
@@ -11615,10 +11615,10 @@ Begin Map
 		Lift Time=2.0
 		KeyPos(1)=(X=0.0,Y=0.0,Z=320.0)
 		Lift Destination=(X=0.000000,Y=0.000000,Z=320.000000)
-		OpenStartSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_o_st_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_o_st_01_Cue'
-		OpenStopSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_o_nd_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_o_nd_01_Cue'
-		CloseStartSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_c_st_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_c_st_01_Cue'
-		CloseStopSound=SoundCue'/Game/Sounds/GEO_Sound_GEO_03_door_GEO_drdFact_c_nd_01_Cue.GEO_Sound_GEO_03_door_GEO_drdFact_c_nd_01_Cue'
+		OpenStartSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_o_st_01_Cue.door_GEO_drdFact_o_st_01_Cue'
+		OpenStopSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_o_nd_01_Cue.door_GEO_drdFact_o_nd_01_Cue'
+		CloseStartSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_c_st_01_Cue.door_GEO_drdFact_c_st_01_Cue'
+		CloseStopSound=SoundCue'/Game/Sounds/GEO_Sound/GEO_03/door_GEO_drdFact_c_nd_01_Cue.door_GEO_drdFact_c_nd_01_Cue'
 		MoveLoopSound=None
 		Wait at top time=2.0
 		NumKeys=2
@@ -21806,7 +21806,7 @@ Begin Map
 		Begin Object Name="AudioComponent0"
 			bOverrideAttenuation=True
 			AttenuationOverrides=(DistanceAlgorithm=ATTENUATION_Linear,FalloffDistance=1536.0,AttenuationShapeExtents=(X=64.0,Y=0.0,Z=0.0))
-			Sound=SoundCue'/Game/Sounds/GEN_Sound_Electrical_Sparks_ele_GEN_ForceField_Lp03_Cue.GEN_Sound_Electrical_Sparks_ele_GEN_ForceField_Lp03_Cue'
+			Sound=SoundCue'/Game/Sounds/GEN_Sound/Electrical_Sparks/ele_GEN_ForceField_Lp03_Cue.ele_GEN_ForceField_Lp03_Cue'
 			VolumeMultiplier=0.11176470588235295
 			PitchMultiplier=1.0
 			RelativeLocation=(X=-14057.700000,Y=19629.100000,Z=-1309.900000)

@@ -2,6 +2,10 @@ REM NOTE : MANUALLY SORTING SOUND FILES BACK INTO THE APPROPRIATE PACKAGES TO RE
 
 REM ADDITIONAL : DO NOT RUN AS-IS, THIS IS INTENDED TO BE ADDED TO THE MAIN SCRIPT WHEN IT IS COMPLETED
 
+REM ALL CATEGORIES CHECKED AND DIRECTORIES MADE
+
+REM NOW JUST TO SORT THE FILES BACK INTO THEIR APPROPRIATE CATEGORIES
+
 REM	briefings_voice.usx
 
 mkdir "%start%\Sounds\briefings_voice\EPILOGUE"
@@ -118,6 +122,7 @@ REM gen_sound.usx
 mkdir "%start%\Sounds\gen_sound\Ambience"
 mkdir "%start%\Sounds\gen_sound\Ambient_PS"
 mkdir "%start%\Sounds\gen_sound\Creatures"
+mkdir "%start%\Sounds\gen_sound\doors_elevators"
 mkdir "%start%\Sounds\gen_sound\Droids"
 mkdir "%start%\Sounds\gen_sound\Electrical_Sparks"
 mkdir "%start%\Sounds\gen_sound\Foley_Movement"
@@ -143,11 +148,13 @@ mkdir "%start%\Sounds\geo_sound\GEO_01"
 mkdir "%start%\Sounds\geo_sound\GEO_03"
 mkdir "%start%\Sounds\geo_sound\GEO_04"
 mkdir "%start%\Sounds\geo_sound\GEO_05"
+mkdir "%start%\Sounds\geo_sound\Prologue"
 
 REM geo_voice.usx
 
 mkdir "%start%\Sounds\geo_voice\GEO_01"
 mkdir "%start%\Sounds\geo_voice\GEO_03"
+mkdir "%start%\Sounds\geo_voice\GEO_04"
 mkdir "%start%\Sounds\geo_voice\GEO_05"
 
 REM mp_voice.usx
@@ -156,6 +163,8 @@ mkdir "%start%\Sounds\mp_voice\Clone_Advisor_1"
 mkdir "%start%\Sounds\mp_voice\Delta_07"
 mkdir "%start%\Sounds\mp_voice\Delta_38"
 mkdir "%start%\Sounds\mp_voice\Delta_40"
+mkdir "%start%\Sounds\mp_voice\Delta_62"
+mkdir "%start%\Sounds\mp_voice\Taun_We"
 mkdir "%start%\Sounds\mp_voice\Trando_Merc"
 mkdir "%start%\Sounds\mp_voice\Trando_Merc_Advisor"
 mkdir "%start%\Sounds\mp_voice\Trando_Slaver"
@@ -190,6 +199,8 @@ REM ras_voice.usx
 
 mkdir "%start%\Sounds\ras_voice\RAS_01"
 mkdir "%start%\Sounds\ras_voice\RAS_02"
+mkdir "%start%\Sounds\ras_voice\RAS_03"
+mkdir "%start%\Sounds\ras_voice\RAS_04"
 
 REM ui_music.usx
 
@@ -202,12 +213,15 @@ mkdir "%start%\Sounds\ui_sound\UI"
 REM yyy_music.usx
 
 mkdir "%start%\Sounds\yyy_music\YYY_04"
+mkdir "%start%\Sounds\yyy_music\YYY_BattleCues"
+mkdir "%start%\Sounds\yyy_music\YYY_episodes"
 mkdir "%start%\Sounds\yyy_music\YYY_nonbattle_states"
 mkdir "%start%\Sounds\yyy_music\YYY_overlays"
 
 REM yyy_sound.usx
 
 mkdir "%start%\Sounds\yyy_sound\YYY_01"
+mkdir "%start%\Sounds\yyy_sound\YYY_02"
 mkdir "%start%\Sounds\yyy_sound\YYY_04"
 mkdir "%start%\Sounds\yyy_sound\YYY_05"
 mkdir "%start%\Sounds\yyy_sound\YYY_06"
