@@ -1,3 +1,5 @@
+some audio files in the yyy_sound package don't seem to be properly listed within the editor
+
 	briefings_voice.txt
 
 first package categories sorted and example
@@ -5,6 +7,10 @@ first package categories sorted and example
 	categories.bat
 
 commands to be added to the final script
+
+	categories-yyy_sound-nope.bat
+
+temporary version for testing
 
 	category.txt
 
