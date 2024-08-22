@@ -10118,10 +10118,6 @@ mkdir "%model%\UModelExport"
 
 cd /d "%first%"
 
-mkdir "%start%\StaticMeshes\Editor"
-
-for /f %%f in ('dir /b "Editor"') do copy "Editor\%%f" "%start%\StaticMeshes\Editor\%%f"
-
 echo T > end.time
 echo Time Taken :
 dir *.time
