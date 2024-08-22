@@ -44,6 +44,8 @@ if exist "%start%" (
   goto :EXPORT
 )
 
+echo T > start.time
+
 REM make required directories in the UE4 folder
 mkdir "%start%\Materials" "%start%\StaticMeshes" "%start%\Sounds" "%start%\Animations" "%start%\Music" "%start%\Movies" "%start%\Maps"
 
@@ -10113,6 +10115,14 @@ rd /s /q "%level%\Temporary"
 REM delete leftover files in umodel folder
 rd /s /q "%model%\UModelExport\"
 mkdir "%model%\UModelExport"
+
+cd /d "%first%"
+
+echo T > end.time
+echo Time Taken :
+dir *.time
+del /q  "start.time"
+del /q  "end.time"
 
 pause
 REM pause and exit for now
