@@ -1,5 +1,5 @@
 Begin Map
-	Begin Level Name=/Game/Materials/epilogue-UT2004
+	Begin Level Name=/Game/Maps/epilogue
 	Begin Actor Class=Brush Name=BigAdditiveBrush
 		Begin Object Name="BrushComponent0"
 			RelativeLocation=(X=-6081.000000,Y=-14213.050782,Z=-16112.000000)

@@ -1,5 +1,5 @@
 Begin Map
-	Begin Level Name=/Game/Materials/pro-UT2004
+	Begin Level Name=/Game/Maps/pro
 	Begin Actor Class=Brush Name=BigAdditiveBrush
 		Begin Object Name="BrushComponent0"
 			RelativeLocation=(X=-8890.626500,Y=10432.000000,Z=-5010.030000)
