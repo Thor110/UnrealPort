@@ -81,6 +81,8 @@ That is "SaveGroups = true" in the umodel.cfg file.
 
 **UModel** from https://www.gildor.org/en/projects/umodel
 
+**UE Explorer** from https://github.com/UE-Explorer/UE-Explorer
+
 Make sure nothing exists inside the "UmodelExport" folder.
 
 Select "Use object groups instead of types" in the Umodel options, or use the .cfg file included.
@@ -158,6 +160,8 @@ C:\SWRC
 C:\umodel_win32
 
 C:\Program Files\Blender Foundation\Blender 2.93
+
+C:\Program Files (x86)\EliotVU\UE Explorer
 
 C:\SWRCUE4
 

@@ -1,3 +1,7 @@
-Red Orchestra has the latest version of the script currently.
+Star Wars Republic Commando has the latest version of the script currently.
 
 Which handles the rare instances in which files are packaged within maps.
+
+It also handles extraction of G16 BMP Heightmaps
+
+See "UE2-UE4\TO-DO\02 G16 BMP Export Convert" for conversion and padding idea (incomplete)

@@ -3,6 +3,7 @@ Entering for SWRC
 C:\SWRC
 C:\umodel_win32
 C:\Program Files\Blender Foundation\Blender 3.6
+C:\Program Files (x86)\EliotVU\UE Explorer
 C:\EXPORT
 
 Entering for SGA
