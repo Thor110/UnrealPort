@@ -1,19 +1,38 @@
-# Important Notes
-On the whole this readme isn't well structured yet and needs reworking, many of the scripts are in half completed states and need more thorough testing, these things I will get to in time.
+# UnrealPort
+A series of scripts and applications I am working on for converting games from early iterations of the Unreal Engine to newer versions.
+
+The long-term goal of this project is to create an open-source community driven ecosystem in which every game from the early iterations of the Unreal Engine can be brought forward to more modern versions.
+
+The short-term goal of this project is to create a series of scripts that can be used to convert a variety of UE2 games to UE4 and UE5.
+
+# 💾 Compatibility Status
+Here I will keep a list of compatible games as per current versions of the project.
+
+# UE1 Compatibility
+Currently I have not worked on any UE1 games.
+
+# UE2 Compatibility
+There are various scripts prepared for a small number of UE2 games.
+
+# UE3 Compatibility
+I have successfully ported levels from one UE3 game and am in the process of preparing a script though I have been more focused on UE2 games.
+
+# Known Issues
+Many scripts are in half completed states and need more thorough testing.
 
 Animations do not properly convert and must be converted through 3DSMax for the time being.
 
-# Current Issues UE2 Porting Scripts
+# UE2 Porting Scripts
 For porting from UE2 to UE2, I have abandoned these scripts and am unlikely to work on them again, but maybe they will help someone.
 
 **Both UE2 Scripts** Both UE2 scripts need the relevant UCC parameters and lines setup in order to import everything en-masse into UT2004 and into the correct categories.
 
-# Current Issues UE3 Porting Scripts
-For porting from UDK to UE4.
+# UE3 Porting Scripts
+For porting from UE3 to UE4.
 
 **Unreal Tournament 3** Script in the works.
 
-# Current Issues UE4 Porting Scripts
+# UE4 Porting Scripts
 For porting from UE2 to UE4.
 
 **SGA & SWRC Scripts** Both scripts still need some work to properly sort through the associated .mat and .props.txt files.
@@ -23,6 +42,9 @@ For porting from UE2 to UE4.
 **Red Orchestra & Postal 2 Scripts** largely untested and don't produce a full output yet.
 
 **SWAT 4 & SWAT 4 The Stetchkov Syndicate** SWAT 4 Tested, Animations packages don't export and the expansion is untested currently but the same script should work for that.
+
+## REWRITING
+I am in the process of rewriting this README.md file, this is just a reference point for myself to denote that the above has been rewritten or reorganised and below has not yet been.
 
 # UE2-UE4
 A batch script or set of batch scripts I am working on that prepares all of the files for a few ports I am working on.
@@ -45,13 +67,12 @@ This project will also have a middle ground where an Unreal Engine template hous
 
 I also have a version on 5.3 but there is a lot more work to be done before it will be ready to serve as a template for this project.
 
-# UModel Issues
-Please ensure that umodel is setup correctly and that it has it's export path set to "\UmodelExport\" in the umodel directory and that use object groups instead of types is ticked in the settings.
-
-That is "SaveGroups = true" in the umodel.cfg file.
+# Current Requirements
+Here are the current pre-requisites and names of the scripts for each game.
 
 # Stargate SG-1 : The Alliance
 ## UE2			: Stargate SG-1 : The Alliance
+
 **FILENAME	:** sga-ue2-release.bat
 
 **REQUIRED	:** GAME(SGA) + UMODEL + UT2004 + FFMPEG
@@ -63,6 +84,7 @@ That is "SaveGroups = true" in the umodel.cfg file.
 
 # Star Wars Republic Commando
 ## UE2			: Star Wars Republic Commando
+
 **FILENAME	:** swrc-ue2-release.bat
 
 **REQUIRED	:** GAME(SWRC) + FIX(LEONS) + UMODEL + UT2004
