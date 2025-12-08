@@ -34,6 +34,15 @@ if exist "%blend%\blender.exe" (
   goto :BLENDER
 )
 
+:UE-EXPLORER
+SET /P explore="Enter your UE-Explorer Directory:"
+if exist "%explore%\Eliot.UELib.dll" (
+  echo UE-Explorer Found.
+) else (
+  echo UE-Explorer Not Found!
+  goto :UE-EXPLORER
+)
+
 :EXPORT
 SET /P start="Enter the directory of the UE4/5 Content Folder:"
 if exist "%start%" (
@@ -45,6 +54,21 @@ if exist "%start%" (
 )
 
 echo T > start.time
+
+REM backup old config
+REN %model%\umodel.cfg old-umodel.cfg
+copy %cd%\umodel.cfg %model%\umodel.cfg
+
+REM decompile .u scripts
+SET explore=%explore%\Eliot.UELib.dll
+REM run once for System
+SET system=%level%\System
+SET output=%start%\System
+REM run once for Properties or other folders containing .u files which may vary per game
+for /r "%level%" %%x in (*.u) do PowerShell -NoProfile -ExecutionPolicy Bypass -File "%cd%\u-decompile.ps1" "%%x" "%start%" "%explore%"
+SET system=%level%\Properties
+SET output=%start%\Properties
+for /r "%level%" %%x in (*.u) do PowerShell -NoProfile -ExecutionPolicy Bypass -File "%cd%\u-decompile.ps1" "%%x" "%start%" "%explore%"
 
 REM make required directories in the UE4 folder
 mkdir "%start%\Materials" "%start%\StaticMeshes" "%start%\Sounds" "%start%\Animations" "%start%\Music" "%start%\Movies" "%start%\Maps"
@@ -10117,6 +10141,10 @@ rd /s /q "%model%\UModelExport\"
 mkdir "%model%\UModelExport"
 
 cd /d "%first%"
+
+REM restore old config
+del %model%\umodel.cfg
+ren %model%\old-umodel.cfg umodel.cfg
 
 echo T > end.time
 echo Time Taken :
