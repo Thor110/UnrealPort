@@ -5,6 +5,24 @@ The long-term goal of this project is to create an open-source community driven 
 
 The short-term goal of this project is to create a series of scripts that can be used to convert a variety of UE2 games to UE4 and UE5.
 
+# Demonstration
+Here is a demonstration of the conversion process for Stargate SG-1 : The Alliance
+
+Link : https://www.youtube.com/watch?v=7avOhO4jFMM
+
+Currently it takes a little under 3 minutes, while importing the files can take a long time as currently that part of the process is not automated.
+
+In future that will be handled by a plugin for UE4.
+
+# Example Projects
+These are sample projects I initially made in UE4 that I am planning to use as a template or base for the porting process in the future.
+
+UE4 : https://github.com/Thor110/ABC-UE4
+
+UE5 : https://github.com/Thor110/ABC-UE5
+
+They currently have basic functional local multiplayer along with a small number of other features such as an automatically generated level list, graphics settings, user profiles and more.
+
 # 💾 Compatibility Status
 Here I will keep a list of compatible games as per current versions of the project.
 
