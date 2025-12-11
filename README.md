@@ -61,6 +61,30 @@ For porting from UE2 to UE4.
 
 **SWAT 4 & SWAT 4 The Stetchkov Syndicate** SWAT 4 Tested, Animations packages don't export and the expansion is untested currently but the same script should work for that.
 
+# Pipeline Specifications
+
+This is a rough guideline of the processes taken and the order in which to do them.
+
+uModel - Extract assets
+
+Blender + Unreal Model Plugin - For converting static meshes to FBX - Note : Currently animations do not convert properly with this plugin, 3DSMax works but requires a license.
+
+UCC - Extract assets umodel cannot work with
+
+Note that UCC is required for extracting proper G16 BMP heightmaps.
+
+UEExplorer - Decompile .u classes to .uc
+
+UnrToT3D - Convert maps to UE2 compatible T3D
+
+UnrToT3D needs completely rewriting from the ground up in order to be dynamic and to be passed class definitions and constants pulled from the .uc classes.
+
+UT4XConverter - Convert maps from UE2 compatible T3D to UE4 compatible T3D
+
+UT4XConverter needs modifying to accept command line parameters for engine type, input file and output location.
+
+Each and every game will need some manual work in order to identify bottlenecks, errors and issues.
+
 ## REWRITING
 I am in the process of rewriting this README.md file, this is just a reference point for myself to denote that the above has been rewritten or reorganised and below has not yet been.
 
